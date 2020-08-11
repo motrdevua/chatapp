@@ -1,0 +1,29 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "NodeJS, React &amp; GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motrdevua/chatapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motrdevua/chatapp/issues"
+  },
+  "homepage": "https://github.com/motrdevua/chatapp#readme",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
